@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
             loadContacts()
         }
     }
-
+//just figuring it out
     private fun loadContacts() {
         CoroutineScope(Dispatchers.IO).launch {
             val contacts = processContacts()
